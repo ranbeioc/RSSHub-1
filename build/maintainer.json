@@ -85,6 +85,9 @@
     "/19lou/:city?": [
         "nczitzk"
     ],
+    "/1lou/:path?": [
+        "falling"
+    ],
     "/1point3acres/blog/:category?": [
         "nczitzk"
     ],
@@ -2846,7 +2849,7 @@
         "Fatpandac"
     ],
     "/gov/province/:name/:category": [],
-    "/gov/safe/bussiness/:site?": [
+    "/gov/safe/business/:site?": [
         "nczitzk"
     ],
     "/gov/safe/complaint/:site?": [
@@ -2903,8 +2906,16 @@
         "bigfei",
         "nczitzk"
     ],
-    "/gov/suzhou/doc": [],
-    "/gov/suzhou/news/:uid": [],
+    "/gov/suzhou/doc": [
+        "EsuRt"
+    ],
+    "/gov/suzhou/fg/:category?": [
+        "nczitzk"
+    ],
+    "/gov/suzhou/news/:uid": [
+        "EsuRt",
+        "luyuhuang"
+    ],
     "/gov/taiwan/mnd": [],
     "/gov/taiyuan/rsj/:caty/:page?": [
         "2PoL"
@@ -3252,6 +3263,9 @@
     ],
     "/houxu/memory": [
         "nczitzk"
+    ],
+    "/hoyolab/news/:language/:gids/:type": [
+        "ZenoTian"
     ],
     "/hpoi/bannerItem": [
         "DIYgod"
@@ -5323,10 +5337,12 @@
     ],
     "/project-zero-issues": [],
     "/proletar/:type?/:id?": [],
-    "/ps/:lang?/product/:gridName": [],
-    "/ps/list/:gridName": [],
-    "/ps/ps4updates": [],
-    "/ps/trophy/:id": [],
+    "/ps/monthly-games": [
+        "justjustCC"
+    ],
+    "/ps/trophy/:id": [
+        "DIYgod"
+    ],
     "/psnine/game": [],
     "/psnine/index": [],
     "/psnine/news/:order?": [],
@@ -6509,7 +6525,7 @@
         "aether17"
     ],
     "/tianyancha/hot": [],
-    "/tiktok/user/:user": [
+    "/tiktok/user/:user/:iframe?": [
         "TonyRL"
     ],
     "/timednews/news/:type?": [
@@ -6624,10 +6640,16 @@
     "/tradingview/blog/:language?/category/:category?": [
         "nczitzk"
     ],
+    "/tradingview/desktop": [
+        "nczitzk"
+    ],
     "/trakt/collection/:username/:type?": [],
     "/treasury/press-releases/:category?/:title?": [],
     "/trending/:keywords/:numberOfDays?": [
         "Jkker"
+    ],
+    "/trendingpapers/papers/:category?/:time?/:cited?": [
+        "CookiePieWw"
     ],
     "/tribalfootball": [
         "Rongronggg9"
