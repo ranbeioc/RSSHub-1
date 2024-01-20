@@ -320,6 +320,9 @@
     "/agirls/:category?": [
         "TonyRL"
     ],
+    "/agirls/topic/:topic": [
+        "TonyRL"
+    ],
     "/agirls/topic_list": [
         "TonyRL"
     ],
@@ -1192,6 +1195,9 @@
         "TonyRL"
     ],
     "/cfan/news": [],
+    "/cfmmc/:id?": [
+        "nczitzk"
+    ],
     "/cgtn/most/:type?/:time?": [],
     "/cgtn/opinions": [],
     "/cgtn/podcast/:category/:id": [
@@ -1790,6 +1796,9 @@
     ],
     "/docschina/jsweekly": [
         "daijinru"
+    ],
+    "/dol/announce/:owner?/:province?/:office?": [
+        "itpcc"
     ],
     "/domp4/detail/:id": [
         "savokiss"
@@ -2564,7 +2573,8 @@
         "TonyRL"
     ],
     "/google/citations/:id": [
-        "KellyHwong"
+        "KellyHwong",
+        "const7"
     ],
     "/google/doodles/:language?": [
         "xyqfer"
@@ -2589,6 +2599,9 @@
     ],
     "/gov/anhui/kjt/:path?": [
         "nczitzk"
+    ],
+    "/gov/beijing/bjedu/gh/:urlPath?": [
+        "TonyRL"
     ],
     "/gov/beijing/bjeea/:type": [],
     "/gov/beijing/bphc/:channel": [
@@ -3219,6 +3232,9 @@
     "/hkepc/:category?": [
         "TonyRL"
     ],
+    "/hket/:category?": [
+        "TonyRL"
+    ],
     "/hkjunkcall": [
         "nczitzk"
     ],
@@ -3838,6 +3854,9 @@
         "HenryQW",
         "JimenezLi"
     ],
+    "/jiaoliudao": [
+        "TonyRL"
+    ],
     "/jiemian/account/main/:id": [
         "nczitzk"
     ],
@@ -3998,6 +4017,12 @@
     ],
     "/kunchengblog/essay": [
         "nczitzk"
+    ],
+    "/kuwaitlocal": [
+        "TonyRL"
+    ],
+    "/kuwaitlocal/:category?": [
+        "TonyRL"
     ],
     "/kyodonews/:language?/:keyword?": [
         "Rongronggg9"
@@ -4383,10 +4408,16 @@
     "/micmicidol": [],
     "/micmicidol/search/:label": [],
     "/microsoft-store/updates/:productid/:market?": [],
+    "/mihoyo/bbs/follow-list/:uid": [
+        "CaoMeiYouRen"
+    ],
     "/mihoyo/bbs/img-ranking/:game/:routeParams?": [
         "CaoMeiYouRen"
     ],
     "/mihoyo/bbs/official/:gids/:type?/:page_size?/:last_id?": [
+        "CaoMeiYouRen"
+    ],
+    "/mihoyo/bbs/user-post/:uid": [
         "CaoMeiYouRen"
     ],
     "/mihoyo/bh2/:type": [],
@@ -5396,6 +5427,9 @@
     "/qdu/jwc": [
         "abc1763613206"
     ],
+    "/qianp/news/:path*": [
+        "TonyRL"
+    ],
     "/qianzhan/analyst/column/:type?": [
         "moke8"
     ],
@@ -5779,10 +5813,12 @@
         "p7e4"
     ],
     "/secrss/author/:author": [
-        "XinRoom"
+        "XinRoom",
+        "SunBK201"
     ],
     "/secrss/category/:category?": [
-        "XinRoom"
+        "XinRoom",
+        "SunBK201"
     ],
     "/secshi": [],
     "/security/pulses": [],
@@ -5902,6 +5938,9 @@
     ],
     "/shu/jwb/:type?": [
         "tuxinghuan"
+    ],
+    "/shuiguopai": [
+        "nczitzk"
     ],
     "/sicau/dky/:category?": [
         "nczitzk"
@@ -6289,6 +6328,9 @@
     "/t66y/post/:tid": [],
     "/tableau/app/discover/viz-of-the-day": [
         "KaiyoungYu"
+    ],
+    "/taiwannews/hot/:lang?": [
+        "TonyRL"
     ],
     "/tanchinese/:category?": [],
     "/tangshufang/:category?": [
@@ -7617,6 +7659,9 @@
         "JimenezLi"
     ],
     "/zhihu/xhu/people/answers/:hexId": [
+        "JimenezLi"
+    ],
+    "/zhihu/xhu/people/posts/:hexId": [
         "JimenezLi"
     ],
     "/zhihu/xhu/question/:questionId/:sortBy?": [

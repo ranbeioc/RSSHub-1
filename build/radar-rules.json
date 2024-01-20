@@ -1967,7 +1967,7 @@
     "agirls": [
       {
         "title": "分類",
-        "docs": "https://docs.rsshub.app/routes/new-media##dian-ta-shao-nu",
+        "docs": "https://docs.rsshub.app/routes/new-media#dian-ta-shao-nv",
         "source": [
           "/posts/:category"
         ],
@@ -1975,12 +1975,20 @@
       },
       {
         "title": "精選主題列表",
-        "docs": "https://docs.rsshub.app/routes/new-media##dian-ta-shao-nu",
+        "docs": "https://docs.rsshub.app/routes/new-media#dian-ta-shao-nv",
         "source": [
           "/",
           "/topic"
         ],
         "target": "/agirls/topic_list"
+      },
+      {
+        "title": "精选主题",
+        "docs": "https://docs.rsshub.app/routes/new-media#dian-ta-shao-nv",
+        "source": [
+          "/topic/:topic"
+        ],
+        "target": "/agirls/topic/:topic"
       }
     ]
   },
@@ -4808,6 +4816,18 @@
           "/"
         ],
         "target": "/cfachina/servicesupport/analygarden/:program?"
+      }
+    ]
+  },
+  "cfmmc.com": {
+    "_name": "中国期货市场监控中心",
+    ".": [
+      {
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/routes/finance#zhong-guo-qi-huo-shi-chang-jian-kong-zhong-xin-lan-mu",
+        "source": [
+          "/:id*"
+        ]
       }
     ]
   },
@@ -7837,6 +7857,16 @@
           "/"
         ],
         "target": "/docschina/jsweekly"
+      }
+    ]
+  },
+  "dol.go.th": {
+    "_name": "กรมที่ดิน (Thaland Department of Lands)",
+    "announce": [
+      {
+        "title": "ประกาศกรมที่ดิน",
+        "docs": "https://docs.rsshub.app/routes/government#thailand-department-of-lands-e-landsannouncement",
+        "source": "/index.php"
       }
     ]
   },
@@ -10885,6 +10915,20 @@
         "docs": "https://docs.rsshub.app/routes/government#bei-jing-shi-wei-sheng-jian-kang-wei-yuan-hui",
         "source": "/xwzx_20031/:caty",
         "target": "/gov/beijing/mhc/:caty"
+      }
+    ]
+  },
+  "bjedu.gov.cn": {
+    "_name": "北京市教育委员会",
+    "gh": [
+      {
+        "title": "教育科学规划网 - 通用",
+        "docs": "https://docs.rsshub.app/routes/government#bei-jing-shi-jiao-yu-ke-xue-gui-hua-wang",
+        "source": [
+          "/ghsite/:urlPath/index.html",
+          "/ghsite/:urlPath"
+        ],
+        "target": "/gov/beijing/bjedu/gh/:urlPath"
       }
     ]
   },
@@ -14447,6 +14491,59 @@
       }
     ]
   },
+  "hket.com": {
+    "_name": "香港经济日报",
+    "china": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#xiang-gang-jing-ji-ri-bao",
+        "source": [
+          "/:category/*"
+        ],
+        "target": "/hket/:category"
+      }
+    ],
+    "inews": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#xiang-gang-jing-ji-ri-bao",
+        "source": [
+          "/:category/*"
+        ],
+        "target": "/hket/:category"
+      }
+    ],
+    "topick": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#xiang-gang-jing-ji-ri-bao",
+        "source": [
+          "/:category/*"
+        ],
+        "target": "/hket/:category"
+      }
+    ],
+    "wealth": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#xiang-gang-jing-ji-ri-bao",
+        "source": [
+          "/:category/*"
+        ],
+        "target": "/hket/:category"
+      }
+    ],
+    "www": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#xiang-gang-jing-ji-ri-bao",
+        "source": [
+          "/"
+        ],
+        "target": "/hket"
+      }
+    ]
+  },
   "hkjunkcall.com": {
     "_name": "HKJunkCall資訊中心",
     ".": [
@@ -17228,6 +17325,19 @@
       }
     ]
   },
+  "jiaoliudao.com": {
+    "_name": "交流岛资源网",
+    ".": [
+      {
+        "title": "最新文章",
+        "docs": "https://docs.rsshub.app/routes/blog#jiao-liu-dao-zi-yuan-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/jiaoliudao"
+      }
+    ]
+  },
   "jiemian.com": {
     "_name": "界面新闻",
     ".": [
@@ -18746,6 +18856,29 @@
       }
     ]
   },
+  "kuwaitlocal.com": {
+    "_name": "Kuwait Local",
+    ".": [
+      {
+        "title": "Latest News",
+        "docs": "https://docs.rsshub.app/routes/en/new-media#kuwait-local",
+        "source": [
+          "/news/latest",
+          "/news",
+          "/"
+        ],
+        "target": "/kuwaitlocal"
+      },
+      {
+        "title": "Categorised News",
+        "docs": "https://docs.rsshub.app/routes/en/new-media#kuwait-local",
+        "source": [
+          "/news/categories/:category"
+        ],
+        "target": "/kuwaitlocal/:category"
+      }
+    ]
+  },
   "kyodonews.net": {
     "_name": "共同网",
     "china": [
@@ -20146,6 +20279,11 @@
     "_name": "米哈游",
     "bbs": [
       {
+        "title": "米游社 - 用户关注",
+        "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
+        "source": "/:game/accountCenter/postList"
+      },
+      {
         "title": "米游社 - 同人榜",
         "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
         "source": "/:game/imgRanking/:forum_id/:ranking_id/:cate_id",
@@ -20162,6 +20300,11 @@
           "/:game/home/53",
           "/:game/home/58"
         ]
+      },
+      {
+        "title": "米游社 - 用户帖子",
+        "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
+        "source": "/:game/accountCenter/postList"
       }
     ],
     "sr": [
@@ -20178,6 +20321,39 @@
         "docs": "https://docs.rsshub.app/routes/game##mi-ha-you",
         "source": "/:location/news/:category",
         "target": "/mihoyo/ys/:location/:category"
+      }
+    ]
+  },
+  "miyoushe.com": {
+    "_name": "米游社",
+    ".": [
+      {
+        "title": "米游社 - 用户关注",
+        "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
+        "source": "/:game/accountCenter/postList"
+      },
+      {
+        "title": "米游社 - 同人榜",
+        "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
+        "source": "/:game/imgRanking/:forum_id/:ranking_id/:cate_id",
+        "target": "/mihoyo/bbs/img-ranking/:game"
+      },
+      {
+        "title": "米游社 - 官方公告",
+        "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
+        "source": [
+          "/:game/home/28",
+          "/:game/home/6",
+          "/:game/home/31",
+          "/:game/home/33",
+          "/:game/home/53",
+          "/:game/home/58"
+        ]
+      },
+      {
+        "title": "米游社 - 用户帖子",
+        "docs": "https://docs.rsshub.app/routes/game#mi-ha-you",
+        "source": "/:game/accountCenter/postList"
       }
     ]
   },
@@ -24277,6 +24453,18 @@
       }
     ]
   },
+  "qianp.com": {
+    "_name": "千篇网",
+    ".": [
+      {
+        "title": "知识库／资讯",
+        "docs": "https://docs.rsshub.app/routes/new-media#qian-pian-wang",
+        "source": [
+          "/*path"
+        ]
+      }
+    ]
+  },
   "qianzhan.com": {
     "_name": "前瞻网",
     ".": [
@@ -26567,6 +26755,19 @@
       }
     ]
   },
+  "shuiguopai.com": {
+    "_name": "水果派",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/routes/new-media#shui-guo-pai-shou-ye",
+        "source": [
+          "/"
+        ],
+        "target": "/shuiguopai"
+      }
+    ]
+  },
   "sicau.edu.cn": {
     "_name": "",
     "dky": [
@@ -27986,6 +28187,17 @@
       {
         "title": "Viz of the day",
         "docs": "https://docs.rsshub.app/routes/study#tableau"
+      }
+    ]
+  },
+  "taiwannews.com.tw": {
+    "_name": "台灣英文新聞",
+    ".": [
+      {
+        "title": "最新熱門消息",
+        "docs": "https://docs.rsshub.app/routes/traditional-media#tai-wan-ying-wen-xin-wen",
+        "source": "/:lang/index",
+        "target": "/taiwannews/hot/:lang"
       }
     ]
   },
@@ -29462,6 +29674,14 @@
           "/support/solutions/43000673888-tradingview-desktop-releases-and-release-notes/"
         ],
         "target": "/tradingview/desktop"
+      },
+      {
+        "title": "Pine Script™ Release notes",
+        "docs": "https://docs.rsshub.app/routes/program-update#tradingview-pine-script%E2%84%A2-release-notes",
+        "source": [
+          "/pine-script-docs/en/:version/Release_notes.html"
+        ],
+        "target": "/tradingview/pine/:version"
       }
     ]
   },
@@ -29591,12 +29811,26 @@
       {
         "title": "xhu - 用户动态",
         "docs": "https://docs.rsshub.app/routes/social-media#zhi-hu",
-        "source": "/people/:id"
+        "source": [
+          "/people/:id",
+          "/org/:id"
+        ]
       },
       {
         "title": "xhu - 用户回答",
         "docs": "https://docs.rsshub.app/routes/social-media#zhi-hu",
-        "source": "/people/:id/answers"
+        "source": [
+          "/people/:id/answers",
+          "/org/:id/answers"
+        ]
+      },
+      {
+        "title": "xhu - 用户文章",
+        "docs": "https://docs.rsshub.app/routes/social-media#zhi-hu",
+        "source": [
+          "/people/:id/posts",
+          "/org/:id/posts"
+        ]
       },
       {
         "title": "xhu - 收藏夹",
