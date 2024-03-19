@@ -10,7 +10,19 @@
   | -------- | -------- | -------- | -------- | ----------- |
   |          | game     | acg      | next     | news_36_1 |
 
+### 游戏资讯 <Site url="3dmgame.com" size="sm" />
+
+<Route namespace="3dmgame" :data='{"path":"/:name/:type?","radar":[{"source":["3dmgame.com/games/:name/:type"]}],"name":"游戏资讯","categories":["game"],"maintainers":["sinchang","jacky2001114","HenryQW"],"location":"game.ts"}' />
+
 ## 4Gamers <Site url="www.4gamers.com.tw"/>
+
+### Unknown <Site url="www.4gamers.com.tw/news" size="sm" />
+
+<Route namespace="4gamers" :data='{"path":["/","/category/:category"],"radar":[{"source":["www.4gamers.com.tw/news","www.4gamers.com.tw/"],"target":""}],"name":"Unknown","maintainers":["TonyRL"],"url":"www.4gamers.com.tw/news","location":"category.ts"}' />
+
+### Unknown <Site url="www.4gamers.com.tw/news" size="sm" />
+
+<Route namespace="4gamers" :data='{"path":["/","/category/:category"],"radar":[{"source":["www.4gamers.com.tw/news","www.4gamers.com.tw/"],"target":""}],"name":"Unknown","maintainers":["TonyRL"],"url":"www.4gamers.com.tw/news","location":"category.ts"}' />
 
 ### 标签 <Site url="www.4gamers.com.tw/news" size="sm" />
 
@@ -204,6 +216,10 @@ Region
 
 ## indienova 独立游戏 <Site url="indienova.com"/>
 
+### Unknown <Site url="indienova.com" size="sm" />
+
+<Route namespace="indienova" :data='{"path":"/gamedb/recent","name":"Unknown","maintainers":["TonyRL"],"location":"gamedb.ts"}' />
+
 ### 会员开发游戏库 <Site url="indienova.com/usergames" size="sm" />
 
 <Route namespace="indienova" :data='{"path":"/usergames","categories":["game"],"example":"/indienova/usergames","parameters":{},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["indienova.com/usergames","indienova.com/"]}],"name":"会员开发游戏库","maintainers":["TonyRL"],"url":"indienova.com/usergames","location":"usergames.ts"}' />
@@ -272,6 +288,10 @@ Region
 
 <Route namespace="itch" :data='{"path":"/posts/:topic/:id","categories":["game"],"example":"/itch/posts/9539/introduce-yourself","parameters":{"topic":"Topic id, can be found in URL","id":"Topic name, can be found in URL"},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["itch.io/t/:topic/:id"]}],"name":"Posts","maintainers":["nczitzk"],"location":"posts.ts"}' />
 
+### Unknown <Site url="itch.io" size="sm" />
+
+<Route namespace="itch" :data='{"path":"*","name":"Unknown","maintainers":[],"location":"index.ts"}' />
+
 ## JUMP <Site url="switch.jumpvg.com"/>
 
 ### 游戏折扣 <Site url="switch.jumpvg.com" size="sm" />
@@ -299,6 +319,10 @@ Region
 ### Dota2 战队最近比赛结果 <Site url="liquipedia.net" size="sm" />
 
 <Route namespace="liquipedia" :data='{"path":"/dota2/matches/:id","categories":["game"],"example":"/liquipedia/dota2/matches/Team_Aster","parameters":{"id":"战队名称，可在url中找到。例如:https://liquipedia.net/dota2/Team_Aster"},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["liquipedia.net/dota2/:id"]}],"name":"Dota2 战队最近比赛结果","maintainers":["wzekin"],"location":"dota2-matches.ts"}' />
+
+### Unknown <Site url="liquipedia.net" size="sm" />
+
+<Route namespace="liquipedia" :data='{"path":"/counterstrike/matches/:team","radar":[{"source":["liquipedia.net/counterstrike/:id/Matches","liquipedia.net/dota2/:id"],"target":"/counterstrike/matches/:id"}],"name":"Unknown","maintainers":["CookiePieWw"],"location":"cs-matches.ts"}' />
 
 ## Minecraft <Site url="minecraft.net"/>
 
@@ -331,6 +355,22 @@ Region
 ### Switch System Update（Japan） <Site url="nintendo.co.jp/support/switch/system_update/index.html" size="sm" />
 
 <Route namespace="nintendo" :data='{"path":"/system-update","categories":["game"],"example":"/nintendo/system-update","parameters":{},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["nintendo.co.jp/support/switch/system_update/index.html","nintendo.co.jp/"]}],"name":"Switch System Update（Japan）","maintainers":["hoilc"],"url":"nintendo.co.jp/support/switch/system_update/index.html","location":"system-update.ts"}' />
+
+### Unknown <Site url="nintendoswitch.com.cn/software" size="sm" />
+
+<Route namespace="nintendo" :data='{"path":"/eshop/cn","radar":[{"source":["nintendoswitch.com.cn/software","nintendoswitch.com.cn/"]}],"name":"Unknown","maintainers":[],"url":"nintendoswitch.com.cn/software","location":"eshop-cn.ts"}' />
+
+### Unknown <Site url="nintendo.com.hk/software/switch" size="sm" />
+
+<Route namespace="nintendo" :data='{"path":"/eshop/hk","radar":[{"source":["nintendo.com.hk/software/switch","nintendo.com.hk/"]}],"name":"Unknown","maintainers":[],"url":"nintendo.com.hk/software/switch","location":"eshop-hk.ts"}' />
+
+### Unknown <Site url="nintendo.co.jp/software/switch/index.html" size="sm" />
+
+<Route namespace="nintendo" :data='{"path":"/eshop/jp","radar":[{"source":["nintendo.co.jp/software/switch/index.html","nintendo.co.jp/"]}],"name":"Unknown","maintainers":[],"url":"nintendo.co.jp/software/switch/index.html","location":"eshop-jp.ts"}' />
+
+### Unknown <Site url="nintendo.com/store/games" size="sm" />
+
+<Route namespace="nintendo" :data='{"path":"/eshop/us","radar":[{"source":["nintendo.com/store/games","nintendo.com/"]}],"name":"Unknown","maintainers":[],"url":"nintendo.com/store/games","location":"eshop-us.ts"}' />
 
 ### 首页资讯（中国） <Site url="nintendoswitch.com.cn/" size="sm" />
 
@@ -367,6 +407,12 @@ Region
 ### 世界计划 多彩舞台 ｜ ProjectSekai ｜ プロセカ <Site url="pjsekai.sega.jp/news/index.html" size="sm" />
 
 <Route namespace="sega" :data='{"path":"/pjsekai/news","categories":["game"],"example":"/sega/pjsekai/news","parameters":{},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["pjsekai.sega.jp/news/index.html"]}],"name":"世界计划 多彩舞台 ｜ ProjectSekai ｜ プロセカ","maintainers":["15x15G"],"url":"pjsekai.sega.jp/news/index.html","location":"pjsekai.ts"}' />
+
+## Steam <Site url="store.steampowered.com"/>
+
+### Store Search <Site url="store.steampowered.com" size="sm" />
+
+<Route namespace="steam" :data='{"path":"/search/:params","categories":["game"],"example":"/steam/search/sort_by=Released_DESC&tags=492&category1=10&os=linux","parameters":{"params":"Query parameters for a Steam Store search."},"radar":[{"source":["store.steampowered.com","store.steampowered.com/search/:params"]}],"name":"Store Search","maintainers":["moppman"],"location":"search.ts"}' />
 
 ## TapTap 中国 <Site url="taptap.com"/>
 
@@ -431,6 +477,16 @@ Region
 News data from [https://warthunder.com/en/news/](https://warthunder.com/en/news/)
   The year, month and day provided under UTC time zone are the same as the official website, so please ignore the specific time!!!
 
+## 电玩巴士 TGBUS <Site url="tgbus.com"/>
+
+### 文章列表 <Site url="tgbus.com" size="sm" />
+
+<Route namespace="tgbus" :data='{"path":"/list/:category","parameters":{"category":"列表分类，见下表"},"categories":["game"],"example":"/tgbus/list/news","radar":[{"source":["www.tgbus.com/list/:category/"],"target":"/list/:category"}],"name":"文章列表","maintainers":["Xzonn"],"description":"| 最新资讯 | 游戏评测 | 游戏视频 | 巴士首页特稿 | 硬件资讯 |\n    | -------- | -------- | -------- | ------------ | -------- |\n    | news     | review   | video    | special      | hardware |","location":"list.ts"}' />
+
+| 最新资讯 | 游戏评测 | 游戏视频 | 巴士首页特稿 | 硬件资讯 |
+    | -------- | -------- | -------- | ------------ | -------- |
+    | news     | review   | video    | special      | hardware |
+
 ## 二柄 APP <Site url="diershoubing.com"/>
 
 ### 新闻 <Site url="diershoubing.com/" size="sm" />
@@ -444,6 +500,14 @@ News data from [https://warthunder.com/en/news/](https://warthunder.com/en/news/
 <Route namespace="xboxfan" :data='{"path":"/news","categories":["game"],"example":"/xboxfan/news","parameters":{},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["xboxfan.com/"]}],"name":"资讯","maintainers":["XXY233"],"url":"xboxfan.com/","location":"news.ts"}' />
 
 ## 旅法师营地 <Site url="www.iyingdi.com"/>
+
+### Unknown <Site url="www.iyingdi.com" size="sm" />
+
+<Route namespace="lfsyd" :data='{"path":"/tag/:tagId?","radar":[{"source":["mob.iyingdi.com/fine/:tagId"],"target":"/tag/:tagId"}],"name":"Unknown","maintainers":["auto-bot-ty"],"location":"tag.ts"}' />
+
+### Unknown <Site url="www.iyingdi.com" size="sm" />
+
+<Route namespace="lfsyd" :data='{"path":"/user/:id?","radar":[{"source":["www.iyingdi.com/tz/people/:id","www.iyingdi.com/tz/people/:id/*"],"target":"/user/:id"}],"name":"Unknown","maintainers":["auto-bot-ty"],"location":"user.ts"}' />
 
 ### 首页 <Site url="www.iyingdi.com/" size="sm" />
 
@@ -615,6 +679,24 @@ News data from [https://warthunder.com/en/news/](https://warthunder.com/en/news/
 ### 用户发帖 <Site url="163.com" size="sm" />
 
 <Route namespace="163" :data='{"path":"/ds/:id","categories":["game"],"example":"/163/ds/63dfbaf4117741daaf73404601165843","parameters":{"id":"用户ID"},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["ds.163.com/user/:id"]}],"name":"用户发帖","maintainers":["luyuhuang"],"location":"ds.ts"}' />
+
+## 小黑盒 <Site url="xiaoheihe.cn"/>
+
+### 用户动态 <Site url="xiaoheihe.cn" size="sm" />
+
+<Route namespace="xiaoheihe" :data='{"path":"/user/:id","categories":["game"],"example":"/xiaoheihe/user/30664023","parameters":{"id":"用户 ID"},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"name":"用户动态","maintainers":["tssujt"],"location":"user.ts"}' />
+
+### 游戏折扣 <Site url="xiaoheihe.cn" size="sm" />
+
+<Route namespace="xiaoheihe" :data='{"path":"/discount/:platform","categories":["game"],"example":"/xiaoheihe/discount/pc","parameters":{"platform":"平台分类，见下表"},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"name":"游戏折扣","maintainers":["tssujt"],"description":"| PC  | Switch  | PSN   | Xbox |\n  | ----- | ------ | ----- | ----- |\n  | pc    | switch | psn   | xbox  |","location":"discount.ts"}' />
+
+| PC  | Switch  | PSN   | Xbox |
+  | ----- | ------ | ----- | ----- |
+  | pc    | switch | psn   | xbox  |
+
+### 游戏新闻 <Site url="xiaoheihe.cn" size="sm" />
+
+<Route namespace="xiaoheihe" :data='{"path":"/news","categories":["game"],"example":"/xiaoheihe/news","features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"name":"游戏新闻","maintainers":["tssujt"],"location":"news.ts"}' />
 
 ## 英雄联盟 <Site url="lol.garena.tw"/>
 

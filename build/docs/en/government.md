@@ -18,6 +18,10 @@ Language
   | ------- | -------- | -------- |
   | english | chs      | tc_chi  |
 
+### Unknown <Site url="dh.gov.hk/" size="sm" />
+
+<Route namespace="hongkong" :data='{"path":"/chp/:category?/:language?","radar":[{"source":["dh.gov.hk/"]}],"name":"Unknown","maintainers":["nczitzk"],"url":"dh.gov.hk/","location":"chp.ts"}' />
+
 ## Hong Kong Independent Commission Against Corruption 香港廉政公署 <Site url="icac.org.hk"/>
 
 ### Press Releases <Site url="icac.org.hk" size="sm" />
@@ -292,6 +296,174 @@ Language
 
 <Route namespace="gov" :data='{"path":"/immiau/news","categories":["government"],"example":"/gov/immiau/news","parameters":{},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"name":"Immigration and Citizenship - News","maintainers":["liu233w"],"location":"immiau/news.ts"}' />
 
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/anhui/kjt/*","name":"Unknown","maintainers":[],"location":"anhui/kjt.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/beijing/bphc/*","name":"Unknown","maintainers":[],"location":"beijing/bphc/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/beijing/kw/:channel","name":"Unknown","maintainers":["Fatpandac"],"location":"beijing/kw/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/cac/*","name":"Unknown","maintainers":[],"location":"cac/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/ccdi/*","name":"Unknown","maintainers":[],"location":"ccdi/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/chinamine-safety/xw/:category{.+}?","name":"Unknown","maintainers":[],"location":"chinamine-safety/xw.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/chinamine-safety/zfxxgk/:category{.+}?","name":"Unknown","maintainers":[],"location":"chinamine-safety/zfxxgk.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/cmse/*","name":"Unknown","maintainers":[],"location":"cmse/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/cnnic/*","name":"Unknown","maintainers":[],"location":"cnnic/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/csrc/news/:suffix{.+}?","name":"Unknown","maintainers":[],"location":"csrc/news.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/dianbai/*","name":"Unknown","maintainers":[],"location":"dianbai/dianbai.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/gaozhou/*","name":"Unknown","maintainers":[],"location":"gaozhou/gaozhou.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/gz/:channel/:category","name":"Unknown","maintainers":[],"location":"gz/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/huazhou/*","name":"Unknown","maintainers":[],"location":"huazhou/huazhou.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/maoming/*","name":"Unknown","maintainers":[],"location":"maoming/maoming.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":["/fmprc/:category?","/mfa/wjdt/:category?"],"name":"Unknown","maintainers":["nicolaszf","nczitzk"],"description":"| 分类       | category |\n  | ---------- | -------- |\n  | 领导人活动 | gjldrhd  |\n  | 外事日程   | wsrc     |\n  | 部领导活动 | wjbxw    |\n  | 业务动态   | sjxw     |\n  | 发言人表态 | fyrbt    |\n  | 吹风会     | cfhsl    |\n  | 大使任免   | dsrm     |\n  | 驻外报道   | zwbd     |\n  | 政策解读   | zcjd     |","location":"mfa/wjdt.ts"}' />
+
+| 分类       | category |
+  | ---------- | -------- |
+  | 领导人活动 | gjldrhd  |
+  | 外事日程   | wsrc     |
+  | 部领导活动 | wjbxw    |
+  | 业务动态   | sjxw     |
+  | 发言人表态 | fyrbt    |
+  | 吹风会     | cfhsl    |
+  | 大使任免   | dsrm     |
+  | 驻外报道   | zwbd     |
+  | 政策解读   | zcjd     |
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":["/fmprc/:category?","/mfa/wjdt/:category?"],"name":"Unknown","maintainers":["nicolaszf","nczitzk"],"description":"| 分类       | category |\n  | ---------- | -------- |\n  | 领导人活动 | gjldrhd  |\n  | 外事日程   | wsrc     |\n  | 部领导活动 | wjbxw    |\n  | 业务动态   | sjxw     |\n  | 发言人表态 | fyrbt    |\n  | 吹风会     | cfhsl    |\n  | 大使任免   | dsrm     |\n  | 驻外报道   | zwbd     |\n  | 政策解读   | zcjd     |","location":"mfa/wjdt.ts"}' />
+
+| 分类       | category |
+  | ---------- | -------- |
+  | 领导人活动 | gjldrhd  |
+  | 外事日程   | wsrc     |
+  | 部领导活动 | wjbxw    |
+  | 业务动态   | sjxw     |
+  | 发言人表态 | fyrbt    |
+  | 吹风会     | cfhsl    |
+  | 大使任免   | dsrm     |
+  | 驻外报道   | zwbd     |
+  | 政策解读   | zcjd     |
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/mgs/*","name":"Unknown","maintainers":[],"location":"mgs/mgs.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/mmht/*","name":"Unknown","maintainers":[],"location":"mmht/mmht.ts"}' />
+
+### Unknown <Site url="moa.gov.cn/" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/moa/:suburl{.+}","radar":[{"source":["moa.gov.cn/"],"target":"/moa/:suburl"}],"name":"Unknown","maintainers":[],"url":"moa.gov.cn/","location":"moa/moa.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":["/moa/sjzxfb/:category{.+}?","/moa/zdscxx/:category{.+}?"],"name":"Unknown","maintainers":[],"location":"moa/zdscxx.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":["/moa/sjzxfb/:category{.+}?","/moa/zdscxx/:category{.+}?"],"name":"Unknown","maintainers":[],"location":"moa/zdscxx.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/mofcom/article/:suffix{.+}","name":"Unknown","maintainers":[],"location":"mofcom/article.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/mot/:category{.+}?","name":"Unknown","maintainers":[],"location":"mot/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/ndrc/fggz/:category{.+}?","name":"Unknown","maintainers":[],"location":"ndrc/fggz.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/ndrc/xwdt/:category{.+}?","name":"Unknown","maintainers":[],"location":"ndrc/xwdt.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/nifdc/:path{.+}?","name":"Unknown","maintainers":[],"location":"nifdc/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/nmpa/*","name":"Unknown","maintainers":[],"location":"nmpa/generic.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/nopss/*","name":"Unknown","maintainers":[],"location":"nopss/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/nsfc/*","name":"Unknown","maintainers":[],"location":"nsfc/index.ts"}' />
+
+### Unknown <Site url="pbc.gov.cn/redianzhuanti/118742/4122386/4122510/index.html" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/pbc/zcyj","radar":[{"source":["pbc.gov.cn/redianzhuanti/118742/4122386/4122510/index.html"]}],"name":"Unknown","maintainers":["Fatpandac"],"url":"pbc.gov.cn/redianzhuanti/118742/4122386/4122510/index.html","location":"pbc/zcyj.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/sasac/:path{.+}","name":"Unknown","maintainers":[],"location":"sasac/generic.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/sdb/*","name":"Unknown","maintainers":[],"location":"sdb/sdb.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/shanghai/yjj/*","name":"Unknown","maintainers":[],"location":"shanghai/yjj/index.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/suzhou/fg/:category{.+}?","name":"Unknown","maintainers":[],"location":"suzhou/fg.ts"}' />
+
+### Unknown <Site url="kjt.ah.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/xinyi/*","name":"Unknown","maintainers":[],"location":"xinyi/xinyi.ts"}' />
+
 ### 财政厅 <Site url="kjt.ah.gov.cn" size="sm" />
 
 <Route namespace="gov" :data='{"path":"/hebei/czt/xwdt/:category?","categories":["government"],"example":"/gov/hebei/czt/xwdt","parameters":{"category":"分类，见下表，默认为财政动态"},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"name":"财政厅","maintainers":["nczitzk"],"description":"| 财政动态 | 综合新闻 | 通知公告 |\n  | -------- | -------- | -------- |\n  | gzdt     | zhxw     | tzgg     |","location":"hebei/czt.ts"}' />
@@ -343,6 +515,18 @@ Language
   | 生态修复 | stxf |
   | 用材林   | ycl  |
   | 其他     | qt   |
+
+### 国家统计局 通用 <Site url="www.stats.gov.cn" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/stats/*","name":"国家统计局 通用","url":"www.stats.gov.cn","categories":["government"],"maintainers":["bigfei","nczitzk"],"example":"/stats/sj/zxfb","radar":[{"title":"国家统计局 通用","source":["www.stats.gov.cn/*path"],"target":"/gov/stats/*path"}],"description":"::: tip\n    路径处填写对应页面 URL 中 `http://www.stats.gov.cn/` 后的字段。下面是一个例子。\n\n    若订阅 [数据 > 数据解读](http://www.stats.gov.cn/sj/sjjd/) 则将对应页面 URL `http://www.stats.gov.cn/sj/sjjd/` 中 `http://www.stats.gov.cn/` 后的字段 `sj/sjjd` 作为路径填入。此时路由为 [`/gov/stats/sj/sjjd`](https://rsshub.app/gov/stats/sj/sjjd)\n\n    若订阅 [新闻 > 时政要闻 > 中央精神](http://www.stats.gov.cn/xw/szyw/zyjs/) 则将对应页面 URL `http://www.stats.gov.cn/xw/szyw/zyjs/` 中 `http://www.stats.gov.cn/` 后的字段 `xw/szyw/zyjs` 作为路径填入。此时路由为 [`/gov/stats/xw/szyw/zyjs`](https://rsshub.app/gov/stats/xw/szyw/zyjs)\n    :::","location":"stats/index.ts"}' />
+
+::: tip
+    路径处填写对应页面 URL 中 `http://www.stats.gov.cn/` 后的字段。下面是一个例子。
+
+    若订阅 [数据 > 数据解读](http://www.stats.gov.cn/sj/sjjd/) 则将对应页面 URL `http://www.stats.gov.cn/sj/sjjd/` 中 `http://www.stats.gov.cn/` 后的字段 `sj/sjjd` 作为路径填入。此时路由为 [`/gov/stats/sj/sjjd`](https://rsshub.app/gov/stats/sj/sjjd)
+
+    若订阅 [新闻 > 时政要闻 > 中央精神](http://www.stats.gov.cn/xw/szyw/zyjs/) 则将对应页面 URL `http://www.stats.gov.cn/xw/szyw/zyjs/` 中 `http://www.stats.gov.cn/` 后的字段 `xw/szyw/zyjs` 作为路径填入。此时路由为 [`/gov/stats/xw/szyw/zyjs`](https://rsshub.app/gov/stats/xw/szyw/zyjs)
+    :::
 
 ### 国务院政策文件库 <Site url="kjt.ah.gov.cn" size="sm" />
 
@@ -505,15 +689,6 @@ Language
 :::warning
   由于区域限制，建议在国内 IP 的机器上自建
   :::
-
-### 人力社保局 <Site url="rlsbj.cq.gov.cn/" size="sm" />
-
-<Route namespace="gov" :data='{"path":"/chongqing/sydwgkzp","categories":["government"],"example":"/gov/chongqing/sydwgkzp","parameters":{},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["rlsbj.cq.gov.cn/"]}],"name":"人力社保局","maintainers":["MajexH"],"url":"rlsbj.cq.gov.cn/","description":"#### 人事考试通知 {#chong-qing-shi-ren-min-zheng-fu-ren-li-she-bao-ju-ren-shi-kao-shi-tong-zhi}\n\n\n#### 事业单位公开招聘 {#chong-qing-shi-ren-min-zheng-fu-ren-li-she-bao-ju-shi-ye-dan-wei-gong-kai-zhao-pin}","location":"chongqing/sydwgkzp.ts"}' />
-
-#### 人事考试通知 {#chong-qing-shi-ren-min-zheng-fu-ren-li-she-bao-ju-ren-shi-kao-shi-tong-zhi}
-
-
-#### 事业单位公开招聘 {#chong-qing-shi-ren-min-zheng-fu-ren-li-she-bao-ju-shi-ye-dan-wei-gong-kai-zhao-pin}
 
 ### 上海市职业能力考试院 考试项目 <Site url="rsj.sh.gov.cn/" size="sm" />
 
@@ -771,9 +946,21 @@ Language
   如需订阅完整的热点专题，仅需订阅 **热点专题**`rdzt` 一项即可。
   :::
 
-### 重庆人事考试通知公告 <Site url="rlsbj.cq.gov.cn/" size="sm" />
+### 重庆市人民政府 国有资产监督管理委员会 <Site url="gzw.cq.gov.cn" size="sm" />
 
-<Route namespace="gov" :data='{"path":"/chongqing/rsks","categories":["government"],"example":"/gov/chongqing/rsks","parameters":{},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["rlsbj.cq.gov.cn/"]}],"name":"重庆人事考试通知公告","maintainers":["Mai19930513"],"url":"rlsbj.cq.gov.cn/","location":"chongqing/rsks.ts"}' />
+<Route namespace="gov" :data='{"path":"/chongqing/gzw/:category{.+}?","parameters":{"category":"分类，见下表，默认为通知公告"},"name":"重庆市人民政府 国有资产监督管理委员会","url":"gzw.cq.gov.cn","maintainers":["nczitzk"],"radar":[{"source":"gzw.cq.gov.cn/*category","target":"/chongqing/gzw/*category"}],"description":"| 通知公告  | 国企资讯 | 国企简介 | 国企招聘 |\n    | --------- | -------- | -------- | -------- |\n    | tzgg_191 | gqdj     | gqjj     | gqzp     |","location":"chongqing/gzw.ts"}' />
+
+| 通知公告  | 国企资讯 | 国企简介 | 国企招聘 |
+    | --------- | -------- | -------- | -------- |
+    | tzgg_191 | gqdj     | gqjj     | gqzp     |
+
+### 重庆市人民政府 人力社保局 - 人事考试通知 <Site url="rlsbj.cq.gov.cn/" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/chongqing/rsks","categories":["government"],"example":"/gov/chongqing/rsks","radar":[{"source":["rlsbj.cq.gov.cn/"]}],"name":"重庆市人民政府 人力社保局 - 人事考试通知","maintainers":["Mai19930513"],"url":"rlsbj.cq.gov.cn/","location":"chongqing/rsks.ts"}' />
+
+### 重庆市人民政府 人力社保局 - 事业单位公开招聘 <Site url="rlsbj.cq.gov.cn/" size="sm" />
+
+<Route namespace="gov" :data='{"path":"/chongqing/sydwgkzp/:year?","url":"rlsbj.cq.gov.cn/","categories":["government"],"example":"/gov/chongqing/sydwgkzp","parameters":{"year":"需要订阅的年份，格式为`YYYY`，必须小于等于当前年份，默认为当前年份"},"radar":[{"source":["rlsbj.cq.gov.cn/"]}],"name":"重庆市人民政府 人力社保局 - 事业单位公开招聘","maintainers":["MajexH"],"location":"chongqing/sydwgkzp.ts"}' />
 
 ### 专题 <Site url="kjt.ah.gov.cn" size="sm" />
 
