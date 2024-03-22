@@ -186,6 +186,12 @@ There are many tags, which can be obtained by clicking on a tag from the homepag
 
 在博客园主页的分类出可查看所有类型。例如，go 的分类地址为: `https://www.cnblogs.com/cate/go/`, 则: [`/cnblogs/cate/go`](https://rsshub.app/cnblogs/cate/go)
 
+## 不良林 <Site url="bulianglin.com"/>
+
+### 全部文章 <Site url="bulianglin.com/" size="sm" />
+
+<Route namespace="bulianglin" :data='{"path":"/","categories":["blog"],"example":"/bulianglin","radar":[{"source":["bulianglin.com/"]}],"name":"全部文章","maintainers":["cnkmmk"],"url":"bulianglin.com/","location":"rss.ts"}' />
+
 ## 财新博客 <Site url="caixin.com"/>
 
 > 网站部分内容需要付费订阅，RSS 仅做更新提醒，不含付费内容。
@@ -212,6 +218,12 @@ There are many tags, which can be obtained by clicking on a tag from the homepag
   | -------- | -------- | -------- | -------- |
   | windows  | android  | tutorial | other    |
 
+## 电脑玩物 <Site url="playpcesor.com"/>
+
+### 每日精选文章 <Site url="playpcesor.com/" size="sm" />
+
+<Route namespace="playpcesor" :data='{"path":"/","categories":["blog"],"example":"/playpcesor","radar":[{"source":["playpcesor.com/"]}],"name":"每日精选文章","maintainers":["cnkmmk"],"url":"playpcesor.com/","location":"rss.ts"}' />
+
 ## 纷享销客 CRM <Site url="fxiaoke.com"/>
 
 ### 文章 <Site url="fxiaoke.com" size="sm" />
@@ -221,6 +233,12 @@ There are many tags, which can be obtained by clicking on a tag from the homepag
 | 全部文章 | 文章干货 | CRM 知识 | 纷享动态        | 签约喜报  |
   | -------- | -------- | -------- | --------------- | --------- |
   | news     | blog     | articles | about-influence | customers |
+
+## 国外主机测评 <Site url="zhujiceping.com"/>
+
+### 最新发布 <Site url="zhujiceping.com/" size="sm" />
+
+<Route namespace="zhujiceping" :data='{"path":"/","categories":["blog"],"example":"/zhujiceping","radar":[{"source":["zhujiceping.com/"]}],"name":"最新发布","maintainers":["cnkmmk"],"url":"zhujiceping.com/","location":"rss.ts"}' />
 
 ## 虎皮椒 <Site url="www.xunhupay.com"/>
 
@@ -257,6 +275,12 @@ There are many tags, which can be obtained by clicking on a tag from the homepag
 ### 新到资料 <Site url="xys.org/" size="sm" />
 
 <Route namespace="xys" :data='{"path":"/new","categories":["blog"],"example":"/xys/new","parameters":{},"features":{"requireConfig":false,"requirePuppeteer":false,"antiCrawler":false,"supportBT":false,"supportPodcast":false,"supportScihub":false},"radar":[{"source":["xys.org/","xys.org/new.html"]}],"name":"新到资料","maintainers":["wenzhenl"],"url":"xys.org/","location":"new.ts"}' />
+
+## 甬哥侃侃侃YouTube教程摘要随笔 <Site url="ygkkk.blogspot.com"/>
+
+### 最新发表 <Site url="ygkkk.blogspot.com/" size="sm" />
+
+<Route namespace="ygkkk" :data='{"path":"/","categories":["blog"],"example":"/ygkkk","radar":[{"source":["ygkkk.blogspot.com/"]}],"name":"最新发表","maintainers":["cnkmmk"],"url":"ygkkk.blogspot.com/","location":"rss.ts"}' />
 
 ## 雨苁博客 <Site url="ddosi.org"/>
 
@@ -305,4 +329,10 @@ There are many tags, which can be obtained by clicking on a tag from the homepag
 :::tip
   在路由末尾处加上 `?limit=限制获取数目` 来限制获取条目数量，默认值为`20`
   :::
+
+## 子方有料 <Site url="ippa.top"/>
+
+### 最新文章 <Site url="ippa.top/" size="sm" />
+
+<Route namespace="ippa" :data='{"path":"/","categories":["blog"],"example":"/ippa","radar":[{"source":["ippa.top/"]}],"name":"最新文章","maintainers":["cnkmmk"],"url":"ippa.top/","location":"rss.ts"}' />
 

@@ -286,12 +286,6 @@
 
 <Route namespace="hkjunkcall" :data='{"path":"/","radar":[{"source":["hkjunkcall.com/"],"target":""}],"name":"Unknown","maintainers":["nczitzk"],"url":"hkjunkcall.com/","location":"index.ts"}' />
 
-## Howtoforge Linux Tutorials <Site url="howtoforge.com"/>
-
-### Unknown <Site url="howtoforge.com/" size="sm" />
-
-<Route namespace="howtoforge" :data='{"path":"/","radar":[{"source":["howtoforge.com/"],"target":""}],"name":"Unknown","maintainers":["cnkmmk"],"url":"howtoforge.com/","location":"rss.ts"}' />
-
 ## iDaily <Site url="idai.ly"/>
 
 ### Unknown <Site url="idai.ly" size="sm" />
@@ -870,6 +864,28 @@ Refer to [the list of supported currencies](https://wise.com/tools/exchange-rate
 | 家电行业 | 服装行业 | 美妆行业 | 食品饮料行业 |
   | -------- | -------- | -------- | ------------ |
 
+## 爱发电 <Site url="afdian.net"/>
+
+### 发现用户 <Site url="afdian.net" size="sm" />
+
+<Route namespace="afdian" :data='{"path":"/explore/:type/:category?","categories":["other"],"example":"/afdian/explore/hot/所有","parameters":{"type":"分类","category":"目录类型，默认为 `所有`"},"name":"发现用户","maintainers":["sanmmm"],"description":"分类\n\n    | 推荐 | 最热 |\n    | ---- | ---- |\n    | rec  | hot  |\n  \n    目录类型\n  \n    | 所有 | 绘画 | 视频 | 写作 | 游戏 | 音乐 | 播客 | 摄影 | 技术 | Vtuber | 舞蹈 | 体育 | 旅游 | 美食 | 时尚 | 数码 | 动画 | 其他 |\n    | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n    | 所有 | 绘画 | 视频 | 写作 | 游戏 | 音乐 | 播客 | 摄影 | 技术 | Vtuber | 舞蹈 | 体育 | 旅游 | 美食 | 时尚 | 数码 | 动画 | 其他 |","location":"explore.ts"}' />
+
+分类
+
+    | 推荐 | 最热 |
+    | ---- | ---- |
+    | rec  | hot  |
+  
+    目录类型
+  
+    | 所有 | 绘画 | 视频 | 写作 | 游戏 | 音乐 | 播客 | 摄影 | 技术 | Vtuber | 舞蹈 | 体育 | 旅游 | 美食 | 时尚 | 数码 | 动画 | 其他 |
+    | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ------ | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+    | 所有 | 绘画 | 视频 | 写作 | 游戏 | 音乐 | 播客 | 摄影 | 技术 | Vtuber | 舞蹈 | 体育 | 旅游 | 美食 | 时尚 | 数码 | 动画 | 其他 |
+
+### 用户动态 <Site url="afdian.net" size="sm" />
+
+<Route namespace="afdian" :data='{"path":"/dynamic/:uid?","categories":["other"],"example":"/afdian/dynamic/@afdian","parameters":{"uid":"用户id，用户动态页面url里可找到"},"name":"用户动态","maintainers":["sanmmm"],"location":"dynamic.ts"}' />
+
 ## 爱 Q 生活网 <Site url="iqnew.com"/>
 
 ### 最近更新 <Site url="iqnew.com/post/new_100/" size="sm" />
@@ -930,12 +946,6 @@ Refer to [the list of supported currencies](https://wise.com/tools/exchange-rate
 
 <Route namespace="biquge" :data='{"path":"*","name":"Unknown","maintainers":[],"location":"index.ts"}' />
 
-## 不良林 <Site url="bulianglin.com"/>
-
-### Unknown <Site url="bulianglin.com/" size="sm" />
-
-<Route namespace="bulianglin" :data='{"path":"/","radar":[{"source":["bulianglin.com/"],"target":""}],"name":"Unknown","maintainers":["cnkmmk"],"url":"bulianglin.com/","location":"bulianglin.ts"}' />
-
 ## 成都住建蓉 e 办 <Site url="zw.cdzjryb.com"/>
 
 ### 商品住房购房登记 <Site url="zw.cdzjryb.com/lottery/accept/projectList" size="sm" />
@@ -957,12 +967,6 @@ Refer to [the list of supported currencies](https://wise.com/tools/exchange-rate
 ### Unknown <Site url="cbnweek.com/" size="sm" />
 
 <Route namespace="cbnweek" :data='{"path":"/","radar":[{"source":["cbnweek.com/"],"target":""}],"name":"Unknown","maintainers":["nczitzk"],"url":"cbnweek.com/","location":"index.ts"}' />
-
-## 电脑玩物 <Site url="playpcesor.com"/>
-
-### Unknown <Site url="playpcesor.com/" size="sm" />
-
-<Route namespace="playpcesor" :data='{"path":"/","radar":[{"source":["playpcesor.com/"],"target":""}],"name":"Unknown","maintainers":["cnkmmk"],"url":"playpcesor.com/","location":"rss.ts"}' />
 
 ## 东莞教研网 <Site url="dgjyw.com"/>
 
@@ -1043,12 +1047,6 @@ Refer to [the list of supported currencies](https://wise.com/tools/exchange-rate
 ### Unknown <Site url="cmdp.ncc-cma.net" size="sm" />
 
 <Route namespace="ncc-cma" :data='{"path":"/cmdp/image/:id{.+}?","name":"Unknown","maintainers":[],"location":"cmdp.ts"}' />
-
-## 国外主机测评 <Site url="zhujiceping.com"/>
-
-### Unknown <Site url="zhujiceping.com/" size="sm" />
-
-<Route namespace="zhujiceping" :data='{"path":"/","radar":[{"source":["zhujiceping.com/"],"target":""}],"name":"Unknown","maintainers":["cnkmmk"],"url":"zhujiceping.com/","location":"rss.ts"}' />
 
 ## 环球法律评论 <Site url="globallawreview.org"/>
 
