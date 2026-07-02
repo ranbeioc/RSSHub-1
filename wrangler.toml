@@ -2,10 +2,10 @@ name = "rsshub"
 main = "dist-worker/worker.mjs"
 compatibility_date = "2025-06-17"
 compatibility_flags = ["nodejs_compat"]
+workers_dev = false
 
 # Serve static assets from lib/assets
 assets = { directory = "lib/assets" }
-
 [build]
 command = "pnpm run worker-build"
 
@@ -28,6 +28,10 @@ binding = "CACHE"
 [vars]
 # Environment variables can be set here or via wrangler secret
 # DEBUG_INFO = "false"
+
+[[routes]]
+pattern = "rsshub.xhalo.co"
+custom_domain = true
 
 # For production, use wrangler secret put <KEY> to set sensitive values
 # Example secrets:
